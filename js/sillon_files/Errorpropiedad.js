@@ -1,0 +1,1 @@
+﻿function ErrorPropiedad(c,a,b){window.open("/comunes/Errorpropiedad.asp?ID="+c+"&TId="+a+"&Idpropiedad="+b,"","resizable=no,height=530,width=420,scrollbars=no");return};

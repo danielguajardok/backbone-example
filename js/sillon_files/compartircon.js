@@ -1,0 +1,1 @@
+﻿function CompartirCon(b,c,a){window.open("/comunes/compartircon.asp?Modulo="+b+"&ID="+c+"&TId="+a,"","resizable=no,width=420,height=350,scrollbars=no");return}function CompartirConProducto(b,d,a,c){window.open("/comunes/compartircon.asp?Modulo="+b+"&ID="+d+"&TId="+a+"&Producto="+escape(c),"","resizable=no,width=420,height=350,scrollbars=no");return};

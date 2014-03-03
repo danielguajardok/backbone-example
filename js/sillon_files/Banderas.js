@@ -1,0 +1,1 @@
+﻿$(document).ready(function(){$(".dvLangBar").mouseout(function(){$("#dvPaises").hide()});$(".dvLangBar").mouseover(function(){$("#dvPaises").show()})});

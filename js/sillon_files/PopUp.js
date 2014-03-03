@@ -1,0 +1,1 @@
+﻿function openPopUp(q,s,m,d,i,e,c,n,f,b,a,h,k,p){var l=windowWidth();var o=windowHeight();var j=posTop();var g=posLeft();var r=j;var t=g;if(m){r=(j+o/2)-(d/2);t=(g+l/2)-(i/2)}else{r=k;t=p}window.open(q,s,"top="+r+",left="+t+",toolbar="+e+",location="+c+",directories="+n+",status="+f+",menubar="+b+",scrollbars="+a+",resizable="+h+",width="+i+",height="+d)};

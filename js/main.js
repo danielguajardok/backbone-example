@@ -22,7 +22,10 @@ App.Models.Client = Backbone.Model.extend({
 
 App.Collections.Clients = Backbone.Collection.extend({
 	model: App.Models.Client,
-	url: 'http://demo.apidone.com/clientes'
+	url: 'http://demo.apidone.com/clientes',
+	cache: {
+		ttl: 5
+	}
 });
 
 // // Views

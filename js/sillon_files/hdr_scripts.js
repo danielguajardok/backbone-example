@@ -1,0 +1,1 @@
+﻿function Ayuda(b){var a="/Ayuda/inicio.asp";if(b!=0){a=a+"?ID="+b}window.open(a,"Ayuda","status=no,left=10,top=10,width=320,height=400");return}function Coments(){window.open("/coments.asp?Ref="+document.location.pathname,"Ayuda","status=no,left=15,top=15,width=365,height=370");return};
